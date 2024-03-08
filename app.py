@@ -5,6 +5,8 @@ from matplotlib import pyplot as plt
 
 app = Flask(__name__)
 
+print('Hello World!')
+
 x_time = [0,1,2,3,4,5,6]
 y_temp = [18,15,13,9,8,8,11]
 plt.plot(x_time, y_temp)
