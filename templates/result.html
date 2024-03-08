@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4>Weather:</h4>
+{{ weather_dict.location }}
+
+<h4>Time Zone:</h4>
+{{ weather_dict.time_zone }}
+
+<h4>Time Stamp:</h4>
+{{ weather_dict.time_stamp }}
+
+<h4>Date and Time:</h4>
+{{ weather_dict.date_and_time}}
+
+<h4>Description:</h4>
+{{ weather_dict.description }}
+
+<h4>Temperature (kelvin):</h4>
+{{ weather_dict.temp_k }}
+
+
+<h4>Temperature (celsius):</h4>
+{{ weather_dict.temp_c }}
+
+<h4>Wind Speed:</h4>
+{{ weather_dict.wind_speed }}
+
+
+
+{% endblock %}
